@@ -1,7 +1,7 @@
 # kai-Progress-board
 #### (Доска достижений компании на jQuery)
 ***
-### Вы можете скачать "Area-scroll page" Zip архивом.
+### Вы можете скачать "kai-Progress-board" Zip архивом.
 [![download Area-scroll](https://a.radikal.ru/a34/1802/4b/b81ed6707937.gif)](https://github.com/AndreiKaragayr/kai-progress-board.git)
 ![preview Area-scroll](preview.png "One slide")
 ***
@@ -52,7 +52,7 @@
 ***
 ### Как с этим работать:
 
-1. **kai-Progress-board содержит свои классы которых нужно придерживаться:**
+#### 1. kai-Progress-board содержит свои классы которых нужно придерживаться:
  - `class="kai-board"` - родительский блок
  - `class="wr-progress-board"` - сам счетчик 
  - `data-value=""` - атрибут `class="wr-progress-board"`, в нем значение счетчика
@@ -63,7 +63,7 @@
 	</div>
 </div>
 ```
-2. **Наполнение**
+#### 2. Наполнение
 В блок `class="wr-progress-board"` напишем название счетчика например _"Чашек кофе"_ в атрибут `data-value` укажем количество чашек которое мы употребили, например _"44"_. Итак что у нас вышло:
 ```
 <div class="kai-board">
